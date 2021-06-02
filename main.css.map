@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://alice-in-wonderland/./src/stylesheets/style.css"],"names":[],"mappings":"AAAA,GACE,U","file":"main.css","sourcesContent":["h1 {\n  color: red;\n}"],"sourceRoot":""}
