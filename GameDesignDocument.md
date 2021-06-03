@@ -6,17 +6,17 @@ There are also insects moving there and could bite her, so she has to be careful
 
 A player has to help Alice to touch frogs, and they can earn points for it. 
 
-At the same time with the bite of each insect the player looses `1` Life. When the life becomes `0` Alice wakes up from 
+At the same time with the bite of each insect the player loses `1` Life. When life becomes `0` Alice wakes up from 
 her dream and the game ends.
 
 ## Gameplay
 
 Help Alice to move in the wonderland
 
-- PRESS UP Arrow key to make Alice walk up, in backward direction
-- PRESS DOWN Arrow key to make Alice walk down, in front direction
-- PRESS RIGHT Arrow key to make Alice walk in right direction
-- PRESS LEFT Arrow key to make Alice walk in left direction
+- PRESS UP Arrow key to make Alice walk up, in the backward direction
+- PRESS DOWN Arrow key to make Alice walk down, in the front direction
+- PRESS RIGHT Arrow key to make Alice walk in the right direction
+- PRESS LEFT Arrow key to make Alice walk in the left direction
 
 ### Registration process
 
@@ -27,8 +27,8 @@ register for the game.
 ### Scoring System
 
 - By touching every frog a player gets `10` points.
-- With the bite of each insect a player looses `1` life.
-- A player can view self score along with the top 10 scorers at Leader Board.
+- With the bite of each insect a player loses `1` life.
+- A player can view self-score along with the top 10 scorers at Leader Board.
 
 ## Characters
 

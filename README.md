@@ -2,15 +2,15 @@
 
 ![Microverse](https://img.shields.io/badge/-Microverse-6F23FF?style=for-the-badge)
 
-Alice in Wonderland is an RPG game created javaScript by using Phaser game engine.
+Alice in Wonderland is an RPG game created javaScript by using the Phaser game engine.
 YOu can play it directly from the browser of your choice.
 
 - Alice is in her dream where she finds herself in a wonderland.
-- Alice tries to touch the frogs there as she believes that it can turn into a charming prince.
-- There are insects moving and can bite her. With the bite of each insect she loose one life and wake from the dream when life becomes 0.
-- Press up, down, left and right arrow keys to make Alice walk in respective direction.
-- Help Alice to turn frogs into prince and gain points.
-- Avoid insects to bite her as she can wake up from her dream and game ends.
+- Alice tries to touch the frogs there as she believes that they can turn into a charming prince.
+- There are insects moving and can bite her. With the bite of each insect, she loses one life and wakes from the dream when life becomes 0.
+- Press up, down, left and, right arrow keys to make Alice walk in the respective direction.
+- Help Alice to turn frogs into princes and gain points.
+- Avoid insects biting her as she can wake up from her dream and the game ends.
 
 
 ![screenshot](./src/assets/screenshots/mk1.png)
@@ -43,8 +43,7 @@ YOu can play it directly from the browser of your choice.
 
 ### Prerequisites
 
-- Good to have a text editor installed on your machine. You can use any default text editor that comes with the system
-  like Notepad but advanced text editors like Visual Studio Code, Atom or Sublime is recommended. It will help you to
+- Good to have a text editor installed on your machine. You can use any default text editor that comes with the system like Notepad but advanced text editors like Visual Studio Code, Atom, or Sublime are recommended. It will help you to
   interact with the source code.
 
 ### Setup
