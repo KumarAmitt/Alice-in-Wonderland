@@ -29,5 +29,3 @@ class Game extends Phaser.Game {
 }
 
 window.game = new Game();
-
-document.getElementById('content').style.textAlign = 'center';
