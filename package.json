@@ -7,7 +7,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:ci": "jest --ci",
-    "build": "NODE_ENV=production webpack --watch",
+    "build": "NODE_ENV=production webpack",
     "build:dev": "webpack --watch",
     "start": "webpack serve"
   },
