@@ -21,11 +21,11 @@ describe('should short the scores in descending order', () => {
     expect(sorted[0].score).toEqual(20);
   });
 
-  test('Name of the player with other than high score should not come first', () => {
+  test('Name of the player with other than high score should NOT come first', () => {
     expect(sorted[0].user).not.toEqual('Player 1');
   });
 
-  test('Score of the player with other then highest score should not come first', () => {
+  test('Score of the player with other then highest score should NOT come first', () => {
     expect(sorted[0].score).not.toEqual(10);
   });
 });

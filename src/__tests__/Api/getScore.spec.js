@@ -18,9 +18,12 @@ describe('testing getScores api endpoint', () => {
         ],
       }),
     );
-
     const res = await getScores();
+
     expect(res[0].name).toBe('Alien');
     expect(res[0].score).toBe(40);
+    expect(res).toBeInstanceOf(Array);
+    expect(res).not.toBeNull();
+    expect(res).not.toContain({ name: 'XYZ', score: 0 });
   });
 });
