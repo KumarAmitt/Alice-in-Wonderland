@@ -19,7 +19,8 @@ YOu can play it directly from the browser of your choice.
 ## Live Demo
 
 [View Live at Netlify](https://alice-in-wonderland-rpg.netlify.app/)
-[View Live at GitHub Pages](https://kumaramitt.github.io/Phaser-RPG/)
+
+[View Live as GitHub Pages](https://kumaramitt.github.io/Phaser-RPG/)
 
 ## view Game Design Document
 
