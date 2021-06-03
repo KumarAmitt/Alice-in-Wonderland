@@ -11,6 +11,8 @@ const data = [
   },
 ];
 
+const emptyData = [];
+
 describe('should short the scores in descending order', () => {
   const sorted = sorter(data);
   test('Name of the player with highest score should come first', () => {
@@ -27,5 +29,9 @@ describe('should short the scores in descending order', () => {
 
   test('Score of the player with other then highest score should NOT come first', () => {
     expect(sorted[0].score).not.toEqual(10);
+  });
+
+  it('should return an empty array if there no records available to sort', () => {
+    expect(sorter(emptyData)).toHaveLength(0);
   });
 });
