@@ -1,6 +1,5 @@
 import Phaser from 'phaser';
 import config from '../Config/config.js';
-import Button from '../Objects/Button.js';
 
 export default class CreditsScene extends Phaser.Scene {
   constructor() {
@@ -9,7 +8,7 @@ export default class CreditsScene extends Phaser.Scene {
 
   create() {
     this.creditsText = this.add.text(0, 0, 'Credits', { fontSize: '32px', fill: '#fff' });
-    this.madeByText = this.add.text(0, 0, 'Created By: Amit', { fontSize: '26px', fill: '#fff' });
+    this.madeByText = this.add.text(0, 0, 'Created By: Placeholder', { fontSize: '26px', fill: '#fff' });
     this.zone = this.add.zone(config.width / 2, config.height / 2, config.width, config.height);
 
     Phaser.Display.Align.In.Center(
@@ -43,13 +42,9 @@ export default class CreditsScene extends Phaser.Scene {
       duration: 8000,
       delay: 1000,
       onComplete: function () {
+        // this.madeByTween.destroy;
         this.scene.start('Title');
       }.bind(this),
     });
-
-    this.menuButton = new Button(this, 400, 500, 'blueButton1', 'blueButton2', 'Menu', 'Title');
-
-    this.model = this.sys.game.globals.model;
-    if (this.model.musicOn) this.model.musicOn = !this.model.musicOn;
   }
 }
