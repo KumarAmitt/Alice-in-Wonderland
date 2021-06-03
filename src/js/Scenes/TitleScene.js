@@ -28,8 +28,6 @@ export default class TitleScene extends Phaser.Scene {
       this.sys.game.globals.bgMusic = this.bgMusic;
     }
 
-    //--------------------------------
-
     this.message = this.add.text(config.width / 2, 64, 'Welcome, Alien', {
       color: '#FFFFFF',
       fontSize: 16,
