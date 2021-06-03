@@ -28,7 +28,7 @@ register for the game.
 
 - By touching every frog a player gets `10` points.
 - With the bite of each insect a player loses `1` life.
-- A player can view self-score along with the top 10 scorers at Leader Board.
+- A player can view own score along with the top 10 scorers at Leader Board.
 
 ## Characters
 

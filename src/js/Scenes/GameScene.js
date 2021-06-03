@@ -48,7 +48,7 @@ export default class GameScene extends Phaser.Scene {
       delay: 2000, callback: this.frogGen, callbackScope: this, loop: true,
     });
     this.time.addEvent({
-      delay: 3000, callback: this.enemyGen, callbackScope: this, loop: true,
+      delay: 1000, callback: this.enemyGen, callbackScope: this, loop: true,
     });
 
     this.physics.add.overlap(this.player, this.frog, this.onMeetFrog, false, this);
@@ -130,12 +130,12 @@ export default class GameScene extends Phaser.Scene {
       const v = Phaser.Math.RND.between(10, 20);
 
       this.frog.create(x, y, 'player', 48);
-      this.frog.setVelocityX(v);
+      this.frog.setVelocityX(v)
     }
   }
 
   enemyGen() {
-    for (let i = 0; i < 10; i += 1) {
+    for (let i = 0; i < 20; i += 1) {
       const x = Phaser.Math.RND.between(0, this.physics.world.bounds.width);
       const y = Phaser.Math.RND.between(0, this.physics.world.bounds.height);
       const v = Phaser.Math.RND.between(20, 40);
