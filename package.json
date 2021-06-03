@@ -37,7 +37,6 @@
     "postcss": "^8.2.14",
     "postcss-loader": "^5.2.0",
     "postcss-preset-env": "^6.7.0",
-    "regenerator-runtime": "^0.10.5",
     "sass": "^1.32.12",
     "sass-loader": "^11.1.0",
     "style-loader": "^2.0.0",
@@ -55,6 +54,7 @@
     "@types/jest": "^26.0.23",
     "babel-loader": "^8.2.2",
     "babel-polyfill": "^6.26.0",
-    "phaser": "^3.55.0"
+    "phaser": "^3.55.0",
+    "regenerator-runtime": "^0.10.5"
   }
 }
