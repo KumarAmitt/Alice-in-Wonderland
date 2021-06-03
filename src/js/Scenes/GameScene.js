@@ -108,7 +108,6 @@ export default class GameScene extends Phaser.Scene {
     this.scoreText.setText(`Score: ${this.sys.game.globals.score}`);
   }
 
-
   async onMeetEnemy(player, zone) {
     zone.x = Phaser.Math.RND.between(0, this.physics.world.bounds.width);
     zone.y = Phaser.Math.RND.between(0, this.physics.world.bounds.height);
@@ -131,7 +130,7 @@ export default class GameScene extends Phaser.Scene {
       const v = Phaser.Math.RND.between(10, 20);
 
       this.frog.create(x, y, 'player', 48);
-      this.frog.setVelocityX(v)
+      this.frog.setVelocityX(v);
     }
   }
 
