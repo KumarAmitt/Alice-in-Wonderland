@@ -1,5 +1,6 @@
 import { URL, APIkey } from './constants.js';
 import sorter from '../Helper/sorter.js';
+import 'regenerator-runtime/runtime'
 
 const getScores = async () => {
   try {

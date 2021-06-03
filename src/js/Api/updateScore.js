@@ -1,3 +1,4 @@
+import 'regenerator-runtime/runtime'
 import { URL, APIkey } from './constants.js';
 
 const updateScores = async ({ user, score }) => {

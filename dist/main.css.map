@@ -1,1 +1,1 @@
-{"version":3,"sources":["webpack://alice-in-wonderland/./src/stylesheets/style.css"],"names":[],"mappings":"AAAA;EACE;AACF,C","file":"main.css","sourcesContent":["h1 {\n  color: red;\n}"],"sourceRoot":""}
+{"version":3,"sources":["webpack://alice-in-wonderland/./src/stylesheets/style.css"],"names":[],"mappings":"AAAA,SACE,kB","file":"main.css","sourcesContent":["#content {\n  text-align: center;\n}\n"],"sourceRoot":""}
