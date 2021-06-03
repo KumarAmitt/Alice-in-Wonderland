@@ -18,11 +18,11 @@ YOu can play it directly from the browser of your choice.
 
 ## Live Demo
 
-[View Live](https://kumaramitt.github.io/Phaser-RPG/)
+[View Live](https://alice-in-wonderland-rpg.netlify.app/)
 
 ## view Game Design Document
 
-[Game Design Document](./GameDesignDocument.md)
+[View Game Design Document](./GameDesignDocument.md)
 
 ## Built With 🛠
 
