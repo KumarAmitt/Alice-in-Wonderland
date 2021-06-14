@@ -2,8 +2,8 @@
 
 ![Microverse](https://img.shields.io/badge/-Microverse-6F23FF?style=for-the-badge)
 
-Alice in Wonderland is an RPG game created javaScript by using the Phaser game engine.
-YOu can play it directly from the browser of your choice.
+Alice in Wonderland is an RPG game created in javaScript by using the Phaser game engine.
+You can play it directly from the browser of your choice.
 
 - Alice is in her dream where she finds herself in a wonderland.
 - Alice tries to touch the frogs there as she believes that they can turn into a charming prince.
